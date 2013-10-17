@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Calendars</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div class="container">
+         <!-- Navigation -->
+         <ul class="nav nav-pills">
+            <li><a href="../arrangements/">Arrangements</a></li>
+            <li class="active"><a href="">Calendars</a></li>
+         </ul>
+
+         <!-- Page header -->
+         <div class="page-header"><h1>Acamazing Calendars</h1></div>
+
+         <!-- Rehearsal Calendar -->
+         <div class="row">
+            <div class="panel panel-default">
+               <div class="panel-heading"/><h2 class="panel-title">Rehearsal Schedule</h2></div>
+               <div class="panel-body">
+                  <p>Rehearsal locations will be updated as room reservations are confirmed.</p>
+                  <iframe src="https://www.google.com/calendar/embed?src=a2ifgsjlk6c6ru9vuftthni0f0%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+               </div>
+            </div>
+         </div>
+
+         <!-- Performance calendar -->
+         <div class="row">
+            <div class="panel panel-default">
+               <div class="panel-heading"/><h2 class="panel-title">Performances</h2></div>
+               <div class="panel-body">
+                  <iframe src="https://www.google.com/calendar/embed?src=06rnv99cupbf85f85t1r5616bg%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+               </div>
+            </div>
+         </div>
+
+         <small>Designed with Bootstrap v3.0.0</small>
+
+
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+         <script src="//code.jquery.com/jquery.js"></script>
+         <!-- Include all compiled plugins (below), or include individual files as needed -->
+         <script src="../bootstrap/js/bootstrap.min.js"></script>
+      </div>
+   </body>
+</html>
+
